@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 Homework</title>
+    <link rel="stylesheet" href="w7.css">
+    <script src="w7.js"></script>
+</head>
+<body>
+    <!--Form, it does not post anywhere to keep things simple. -->
+    <form>
+        <!--Username-->
+        <label style="color:white;" for="uname">Username:</label><br>
+        <input type="text" id="uname" name="uname"><br>
+
+        <!--Weapons-->
+        <label for="weapons">Weapons:</label><br>
+        <input type="text" id="weapons" name="weapons"><br>
+        
+          <!--Health/Damage-->
+        <label for="health"></label>Health/Damage:</label><br>
+        <input type="text" id="health" name="health"><br>
+
+         <!--Point Total-->
+        <label for="ptotal">Point Total:</label><br>
+        <input type="text" id="ptotal" name="ptotal"><br>
+
+         <!--Button click call the process form function-->
+        <button type="button" onclick="processForm();">Start</button>
+    </form>
+
+    <!--This div is at first hidden. It will show the user info after the function is called.-->
+    <div id="userInfo" style="display: none;">
+        <h2>Here is what you entered: </h2>
+        <br>
+        <!--Username-->
+        <label for="Username">Username: </label><div id="Username"></div>
+        <!--Weapons-->
+        <label for="weapon">Weapons: </label><div id="weapon"></div>
+        <!--Health/Damage-->
+        <label for="health/damage">Health/Damage: </label><div id="health/damage"></div>
+        <!--Email-->
+        <label for="pointtotal">Point Total: </label><div id="pointtotal"></div>
+    </div>
+    
+</body>
+</html>

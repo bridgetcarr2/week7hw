@@ -1,0 +1,15 @@
+/*These styles apply to the whole page*/
+body{
+    
+    color: white
+    font-size: 18pt;
+    font-family: fantasy; 
+  height: 200px;
+  background-color: red;
+  background-image: linear-gradient(to bottom right, blue, aqua);
+}
+
+/*This style affects the buttons */
+button{
+    background-color:lightgreen; 
+}
